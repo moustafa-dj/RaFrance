@@ -1,0 +1,134 @@
+.our-domains{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.our-domains .holder{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.our-domains .content .head{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #313131;
+}
+.our-domains .holder .d-content{
+    width: 30%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+.our-domains .holder .d-content img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+}
+.our-domains .holder .d-content h3{
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 3;
+    font-weight: 500;
+    color: #313131;
+    border-bottom: 1px solid lightgray;
+}
+.our-domains .holder .d-content p{
+    font-size: 15px;
+    margin-top: 10px;
+    line-height:2;
+    margin-bottom: 13px;
+    color: #313131;
+}
+.our-domains .holder .d-content .btn{
+    text-decoration: none;
+    color: #44bd32;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 700;
+}
+.our-site{
+    background-color: #313131;
+    padding: 50px 0 70px;
+}
+.our-site .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.our-site .content .img,.desc{
+    width: 48%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.our-site .content .desc h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    line-height: 2;
+    font-weight: 700;
+    color: #fff;
+}
+.our-site .content .desc p{
+    font-size: 15px;
+    margin-top: 10px;
+    line-height:2;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.our-site .content .img img{
+    width: 100%;
+    height: 100%;
+}
+.our-site .content .desc .btn{
+    text-decoration: none;
+    font-size: 14px;
+    color:#fff;
+    padding: 8px 14px;
+    font-weight: 500;
+    background-color: #44bd32;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .our-domains .head{
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 5px;
+    }
+    .our-domains .holder{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .our-domains .holder .d-content{
+        width: 80%;
+        margin: 10px auto;
+        margin-bottom: 10px;
+        height: 100%;
+
+    }
+    .our-domains .holder .d-content h3{
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 5px;
+    }
+    .our-site .img{
+        display: none;
+    }
+    .our-site .desc{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .our-site .desc h3{
+        font-size: 15px;
+        line-height: 1;
+        margin: 5px;
+        text-align: center;
+        font-weight: 500;
+        color: red;
+    }
+}
